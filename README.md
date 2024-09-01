@@ -13,12 +13,12 @@
 ## 1.1 Linux
 一键安装命令（每天自动从官网定时同步）
 ```
-sudo curl -fsSL https://github.com/tech-shrimp/docker_installer/releases/download/latest/linux.sh| bash -s docker --mirror Aliyun
+sudo curl -fsSL https://github.com/ziqingjiayin/docker_installer/releases/download/latest/linux.sh| bash -s docker --mirror Aliyun
 ```
 
 > 备用（如果Github访问不了，可以使用Gitee的链接）<br>
 ```
-sudo curl -fsSL https://gitee.com/tech-shrimp/docker_installer/releases/download/latest/linux.sh| bash -s docker --mirror Aliyun
+sudo curl -fsSL https://gitee.com/ziqingjiayin/docker_installer/releases/download/latest/linux.sh| bash -s docker --mirror Aliyun
 ```
 
 启动docker
@@ -38,7 +38,7 @@ wsl --update --web-download
 等待wsl安装成功
 ![](images/wsl2成功.png)
 下载Windows版本安装包，进入此项目的Release<br>
-https://github.com/tech-shrimp/docker_installer/releases
+https://github.com/ziqingjiayin/docker_installer/releases
 
 下载Windows版本安装包
 ![](images/windows安装包.png)
@@ -55,7 +55,7 @@ start /w "" "Docker Desktop Installer.exe" install --installation-dir=D:\Docker
 
 ## 1.3 Mac
 进入此项目的Release，下载Mac系统的安装包<br>
-https://github.com/tech-shrimp/docker_installer/releases
+https://github.com/ziqingjiayin/docker_installer/releases
 ![](images/mac安装包.png)
 注意区分CPU架构类型 Intel芯片选择x86_64, 苹果芯片选择arm64<br>
 下载好双击安装即可
@@ -70,7 +70,7 @@ https://github.com/tech-shrimp/docker_installer/releases
 - 使用阿里云的官方线路，速度快
 
 项目地址: 
-https://github.com/tech-shrimp/docker_image_pusher
+https://github.com/ziqingjiayin/docker_image_pusher
 
 ### 方案二 镜像站
 现在只有很少的国内镜像站存活<br>
